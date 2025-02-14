@@ -1,0 +1,6 @@
+a=input()
+print(len(a))
+a=a.lower()
+print(a)
+a=a.upper()
+print(a)
