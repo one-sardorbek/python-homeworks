@@ -1,2 +1,1 @@
-1002,  sardorbek,  Software Engineer, 10000
-1001, John Doe, Software Engineer, 75000
+1001, Sardor, Economist, 10000
