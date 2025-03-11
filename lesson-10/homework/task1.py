@@ -10,4 +10,7 @@ params = {
     "appid": api_key
 }
 weather=requests.get(base_url,params=params)
-print("Weather in Navai: ",weather.json())
+all=weather.json()
+response=all["hourly"]["weather"]
+#print("Weather in Navai: ",weather.json())
+print(response)
