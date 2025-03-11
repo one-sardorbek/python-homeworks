@@ -41,7 +41,7 @@ with sqlite3.connect("Rosters.db") as data:
     sorted_data=cursor.execute(queary)
 print(sorted_data.fetchall())
 #Deleting data
-#with sqlite3.connect("Rosters.db") as data:
-#    cursor=data.cursor() 
-#    queary="DELETE FROM roster where age > 100"
-#    cursor.execute(queary)
+with sqlite3.connect("Rosters.db") as data:
+    cursor=data.cursor() 
+    queary="DELETE FROM roster where age > 100"
+    cursor.execute(queary)
