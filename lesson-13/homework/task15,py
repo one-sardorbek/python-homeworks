@@ -1,0 +1,7 @@
+import numpy as np
+A=np.random.rand(5,5)
+row_wise=np.sum(A, axis=1)
+column_wise=np.sum(A, axis=0)
+print("Matrix:\n",A)
+print("Row-wise sum:\n",row_wise)
+print("Columm-wise sum:\n",column_wise)
