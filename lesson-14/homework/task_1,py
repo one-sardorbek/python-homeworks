@@ -1,0 +1,7 @@
+import numpy as np
+array=np.array([32, 68, 100, 212, 77])
+@np.vectorize
+def convert_to_celcius(array):
+    return (array-32)*(5/9)
+print(convert_to_celcius(array))
+
